@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="h-primary">Bill Generate System</h1>
+<div class="main-container">
+<div class="listbox-container">
+    <label for="">Select month :- </label>
+    <select name="" id="selectMonthName" >
+        <option value="">Jan</option>
+        <option value="">Feb</option>
+        <option value="">Mar</option>
+        <option value="">Apr</option>
+        <option value="">May</option>
+        <option value="">Jun</option>
+        <option value="">Jul</option>
+        <option value="">Aug</option>
+        <option value="">Sep</option>
+        <option value="">Oct</option>
+        <option value="">Nov</option>
+        <option value="">Dec</option>
+    </select><br>
+    <button type="button" onclick="insertCardOfOneMonthprintTable()">Display Bill Cards Of One Month In Table</button>
+</div>
+       
+<div class="printResultOfAllMonth">
+    <button type="button" onclick="printTable()">Display Bill In Table</button>
+    <p><b>Note :-</b> * No need to select month from drop down menu if click on above button</p>
+</div>
+</div>
+<template id="shopDetailTemplate"> 
+    <div class="shop">
+    <div class="shopinfo"></div> 
+    <div class="shopinfo"></div> 
+    <div class="shopinfo"></div> 
+    <div class="shopinfo"></div> 
+</div>
+</template>
+
+<div class="display-bill"></div>
+
+<table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Current Bill</td>
+            <td>Name</td>
+            <td>Jan</td>
+            <td>Feb</td>
+            <td>Mar</td>
+            <td>Apr</td>
+            <td>May</td>
+            <td>Jun</td>
+            <td>Jul</td>
+            <td>Aug</td>
+            <td>Sep</td>
+            <td>Oct</td>
+            <td>Nov</td>
+            <td>Dec</td>
+        </tr>
+    </thead>
+    <tbody>
+       
+    </tbody>
+</table>
+
+    <script src="server_data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

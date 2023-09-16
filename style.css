@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-color: rgb(218, 222, 226);
+}
+
+.h-primary {
+  text-align: center;
+  padding: 10px 0px;
+}
+.main-container {
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.listbox-container {
+  margin: 20px;
+  padding: 5px 10px;
+  background-color: rgb(237 203 226);
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.listbox-container label {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.listbox-container select {
+  font-size: 18px;
+  font-weight: bold;
+}
+.listbox-container button {
+  margin-top: 5px;
+  padding: 3px 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(158, 167, 167);
+}
+.listbox-container button:hover {
+  background-color: rgb(245, 125, 125);
+  cursor: pointer;
+}
+.printResultOfAllMonth {
+  margin: 20px;
+  background-color: rgb(237 203 226);
+  border-radius: 20px;
+  padding: 3px 8px;
+}
+.printResultOfAllMonth button {
+  padding: 3px 8px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(188, 211, 211);
+}
+.printResultOfAllMonth p {
+  margin: 10px;
+  background-color: burlywood;
+  padding: 5px;
+  border-radius: 10px;
+}
+.printResultOfAllMonth button:hover {
+  background-color: rgb(245, 125, 125);
+  cursor: pointer;
+}
+.display-bill {
+  display: none;
+}
+
+.shop {
+  border: 1px solid yellow;
+  background-color: rgb(238, 245, 209);
+  padding: 10px 0px 10px 10px;
+  border-radius: 20px;
+}
+
+.shop .shopinfo {
+  font-size: 22px;
+}
+
+.noOfDaysStyle {
+  background-color: green;
+}
+
+table {
+  display: none;
+}
+thead{
+  background-color: blueviolet;
+}
+
+td {
+  border: 1px solid black;
+  background-color: rgb(236, 186, 163);
+}
