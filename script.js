@@ -1,6 +1,6 @@
 // let data = server_data;
 function insertCardOfOneMonthprintTable() {
-    fetch("https://script.googleusercontent.com/macros/echo?user_content_key=NQbxBzl4nSvE4YbCF63yFRf1MxdNOX6qVGBixbpVnpbXu7JxkUFsm2dcBYykudYX9I8BOYeVX2aSLw2aQrC0bfjvv9F9oSw1m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnAsFBmfMwKQdcoMKcH9_5GEJ-pK2KUi5gSIRpYRt_j_AiD2fBzxmVC5InepTpGQj2wZSTS8_urDmNbOGWqhHMqdW3u-uin3ud9z9Jw9Md8uu&lib=MrR8GFw6mYWPyDHWcQs22xwB3Lct-SX0_")
+    fetch("https://script.google.com/macros/s/AKfycbxxZ-y6OhJLaI2EufZaMDSZr65HFx6dzhJ664ij2o_OkgxN9WG_2w9Gnk6knapAhwXckg/exec")
   .then(res => res.json())
   .then(data => {
   let selectedMonth = getBillGenerateMonth();
